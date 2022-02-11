@@ -140,17 +140,17 @@ def start(bot: Bot, update: Update, args: List[str]):
                 TECHNO_IMG,
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🤝HELP🤝",
-                                                                       callback_data="help_back".format(bot.username)),
+                                                                       callback_data="help_back".format(bot.Fcz_GroupManager_Robot)),
                                                                                    InlineKeyboardButton(text="🧑‍💻My Creator🧑‍💻",
-                                                                       url="t.me/teamishere")],
-                                                                                   [InlineKeyboardButton(text="ADD GRAND OFFICIAL TO YOUR GROUP",
-                                                                       url="t.me/{}?startgroup=true".format(bot.username)),
+                                                                       url="t.me/Harshu2008")],
+                                                                                   [InlineKeyboardButton(text="Fcz_groupManager_Robot TO YOUR GROUP",
+                                                                       url="t.me/{}?startgroup=true".format(bot.Fcz_GroupManager_Robot)),
                                                                                    InlineKeyboardButton(text="Source Code",
-                                                                       url="https://github.com/legendx22/GRANDROBOT")
+                                                                       url="https://github.com/legendx22/Fcz_GroupManager_Robot")
                                                                                  ]]))
 
     else:
-        update.effective_message.reply_text("Yuss, I am Already ONline")
+        update.effective_message.reply_text("dikhta nahi kya online hi hun me abhi mara nahi hu")
 
 
 def send_start(bot, update):
